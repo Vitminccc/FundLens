@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 运行时缓存（可由脚本重新生成）
+references/fund_data_cache/
+
+# 全市场基金列表（可由 build_fund_list.py 重建，约 3MB）
+references/all_funds/fund_list.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 环境与密钥
+.env
+.venv/
+venv/

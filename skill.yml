@@ -1,0 +1,40 @@
+name: zhengxi-views
+version: 2.0.0
+description: |
+  郑希观点库——基于易方达基金经理郑希 2012–2026 年全部公开观点原文语料，
+  外加从语料蒸馏、有本人原话佐证的郑希投资方法的可溯源 research skill。
+  支持溯源问答、方法讲解、前瞻推演、风格化点评、言行对照、
+  全市场基金查询对比、双层评分（6维风格契合度 + 7维综合质量 + 买点信号）。
+author: zhengxi-views contributors
+license: MIT
+tags:
+  - 基金
+  - 投资
+  - 郑希
+  - 易方达
+  - 评分
+  - 买点信号
+scripts:
+  - scripts/search_corpus.py
+  - scripts/build_index.py
+  - scripts/fetch_fund_data.py
+  - scripts/build_fund_list.py
+  - scripts/fund_lookup.py
+  - scripts/fetch_any_fund.py
+  - scripts/score_fund.py
+references:
+  - references/method.md
+  - references/scorecard.md
+  - references/corpus_index.json
+  - references/corpus/
+  - references/fund_data/
+  - references/all_funds/
+triggers:
+  - 郑希
+  - 易方达郑希
+  - zhengxi
+  - 基金评分
+  - 基金打分
+  - 买点信号
+  - 综合评分
+  - 同类对比
